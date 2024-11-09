@@ -124,3 +124,256 @@ header a{
     font-family: bold;
     font-size: 36px;
 }
+
+/* news */
+
+.news_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 колонки одинаковой ширины */
+    grid-template-rows: repeat(1fr);   /* строки с автоматической высотой */
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column; /* Ставим элементы в столбик */
+    align-items: center;    /* Выравниваем по центру по горизонтали */
+    justify-content: center; /* Выравниваем по центру по вертикали */
+    text-align: center;     /* Центруем текст внутри */
+    height: 170px;
+    margin-top: 25%;
+}
+
+.news-title {
+    min-height: 40px; /* Задаем минимальную высоту для выравнивания */
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-family: bold;
+    margin-top: 5%;
+}
+
+.news-description{
+    min-height: 40px; /* Задаем минимальную высоту для выравнивания */
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    font-family: "regular";
+    margin-top: 1%;
+    color: #B3B3B3;
+}
+
+.news-date {
+    color: #0FAE7D;
+    margin-top: 15%;
+    font-family: bold;
+    font-size: 0.8rem;
+}
+
+/* FAQ */
+
+.faq{
+    margin-top: 15%;
+}
+
+.faq h1{
+font-family: bold;
+font-size: 36px;
+}
+
+.faq h1 span {
+    text-decoration: underline 5px;
+    text-decoration-color: #FFA630; /* Цвет подчеркивания */
+}
+
+.faq_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq_section1{
+    width: 45%;
+    margin-top: 5%;
+}
+
+.faq_section1 details[open] .icon {
+    content: url('../img/arrow_up.svg'); /* Замена иконки на "минус" */
+}
+
+.faq_section1 summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-top: 2px solid #B3B3B3;
+}
+
+.faq_section1 span{
+    font-family: bold;
+    font-size: 1.13rem;
+}
+
+.faq_section1 p{
+    font-family: regular;
+    font-size: 1.13rem;
+    color: #B3B3B3;
+    margin-top: 5%;
+}
+
+/* Contact */
+
+.contact_form {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/main/help.svg'); 
+    margin-top: 10%;
+    border-radius: 30px;
+    padding: 40px 100px; /* Отступы внутри формы */
+}
+
+.contact_txt{
+    width: 50%;
+}
+.contact_form h2 {
+    font-size: 36px; /* Размер заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+    color: white;
+}
+
+.contact_form p{
+    font-family: regular;
+    font-size: 14px;
+    color: #487B6C;
+    padding-top: 10%;
+}
+
+.contact_form h2 span {
+    text-decoration: underline 5px;
+    text-decoration-color: #487B6C; /* Цвет подчеркивания */
+}
+
+.contact_form form{
+    margin-left: 10%;
+}
+
+.contact_form label {  
+    font-family: medium;
+    font-size: 12px;
+    color: #487B6C;
+}
+
+.contact_form input {
+    display: flex;
+    width: 300px; /* Полная ширина поля */
+    padding: 10px; /* Отступы внутри поля */
+    margin: 10px 0; /* Отступы сверху и снизу */
+    border: none; /* Без границ */
+    border-radius: 5px; /* Скругление углов */
+}
+
+.contact_form button{
+    display: inline-flex;
+    align-items: center; /* Центрирует содержимое по вертикали */
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #487B6C; 
+    font-family: medium;
+}
+
+.contact_form button:hover {
+    background-color: #f0f0f0; /* Цвет кнопки при наведении */
+}
+
+.contact_form button img{
+    margin-left: 25%;
+}
+
+.contact_form p {
+    font-size: 12px; /* Размер текста для информации */
+    margin-top: 15px; /* Отступ сверху */
+}
+
+/* Footer */
+
+/* Общие стили футера */
+footer {
+    background-color: #F2F2F2;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 10%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.logo-img {
+    max-width: 100px;
+}
+
+.footer-links {
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+
+.footer-column h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: medium;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: regular;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #00b894;
+}
+
+.footer-contact {
+    flex: 1;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}

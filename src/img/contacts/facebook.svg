@@ -1,0 +1,21 @@
+<svg width="73.772461" height="73.449463" viewBox="0 0 73.7725 73.4495" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_7_409_dd" x="0.000000" y="0.000000" width="73.772461" height="73.449463" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="2.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_7_409_dd)">
+		<rect id="back" x="7.000000" y="3.000000" rx="10.000000" width="59.772728" height="59.449413" fill="#FFFFFF" fill-opacity="1.000000"/>
+	</g>
+	<path id="Icon" d="M35 22.55C36.22 21.33 37.89 20.64 39.62 20.64L42.98 20.64C43.5 20.64 43.92 21.06 43.92 21.57L43.92 26.03C43.92 26.54 43.5 26.96 42.98 26.96L39.62 26.96C39.57 26.96 39.52 26.98 39.49 27.02C39.45 27.05 39.43 27.1 39.43 27.15L39.43 29.56L42.98 29.56C43.27 29.56 43.54 29.69 43.72 29.92C43.9 30.14 43.96 30.44 43.89 30.72L42.77 35.17C42.66 35.59 42.29 35.88 41.86 35.88L39.43 35.88L39.43 43.87C39.43 44.38 39.02 44.8 38.5 44.8L34.02 44.8C33.5 44.8 33.08 44.38 33.08 43.87L33.08 35.88L30.66 35.88C30.14 35.88 29.72 35.46 29.72 34.95L29.72 30.49C29.72 29.98 30.14 29.56 30.66 29.56L33.08 29.56L33.08 27.15C33.08 25.42 33.77 23.77 35 22.55ZM39.62 22.5C38.38 22.5 37.2 22.99 36.32 23.86C35.44 24.73 34.95 25.91 34.95 27.15L34.95 30.49C34.95 31 34.53 31.42 34.02 31.42L31.59 31.42L31.59 34.02L34.02 34.02C34.53 34.02 34.95 34.44 34.95 34.95L34.95 42.94L37.57 42.94L37.57 34.95C37.57 34.44 37.99 34.02 38.5 34.02L41.13 34.02L41.79 31.42L38.5 31.42C37.99 31.42 37.57 31 37.57 30.49L37.57 27.15C37.57 26.6 37.78 26.08 38.17 25.7C38.55 25.32 39.08 25.1 39.62 25.1L42.05 25.1L42.05 22.5L39.62 22.5Z" fill="#487B6C" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>
