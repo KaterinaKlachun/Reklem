@@ -1,0 +1,17 @@
+<svg width="36.937988" height="36.000000" viewBox="0 0 36.938 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip12_1800">
+			<rect id="Плюс" width="16.000000" height="16.000000" transform="translate(10.500000 10.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<path id="Прямоугольник 5" d="M26.43 0.5C31.96 0.5 36.43 4.97 36.43 10.5L36.43 18L36.43 25.5C36.43 31.02 31.96 35.5 26.43 35.5L10.5 35.5C4.97 35.5 0.5 31.02 0.5 25.5L0.5 10.5C0.5 4.97 4.97 0.5 10.5 0.5L26.43 0.5Z" stroke="#808080" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<g clip-path="url(#clip12_1800)">
+		<path id="path" d="M19.23 23.14L19.25 23.16C19.25 23.58 18.92 23.91 18.5 23.91C18.08 23.91 17.75 23.58 17.75 23.16L17.77 23.14L19.23 23.14ZM17.79 13.85L17.77 13.83C17.77 13.41 18.1 13.08 18.52 13.08C18.94 13.08 19.27 13.41 19.27 13.83L19.25 13.85L17.79 13.85Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M18.5 23.16L18.52 13.83" stroke="#808080" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path" d="M13.85 19.23L13.83 19.25C13.41 19.25 13.08 18.91 13.08 18.5C13.08 18.08 13.41 17.75 13.83 17.75L13.85 17.77L13.85 19.23ZM23.14 17.77L23.16 17.75C23.58 17.75 23.91 18.08 23.91 18.5C23.91 18.91 23.58 19.25 23.16 19.25L23.14 19.23L23.14 17.77Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M13.83 18.5L23.16 18.5" stroke="#808080" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>
