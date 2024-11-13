@@ -621,9 +621,9 @@ export default {
         article: '78901234',
         stock: 500,
         colors: [
-          { color: 'Светло-коричневый', image: require('src/assets/img/catalog/accessories/alen/light_brown.svg') },
+          { color: 'Светло-коричневый', image: require('@/assets/img/catalog/accessories/alen/light_brown.svg') },
           { color: 'Коричневый', image: require('@/assets/img/catalog/accessories/alen/brown.svg') },
-          { color: 'Рыжий', image: require('src/assets/img/catalog/accessories/alen/red.svg') },
+          { color: 'Рыжий', image: require('@/assets/img/catalog/accessories/alen/red.svg') },
         ],
         price: 81,
         description: 'Брелок из материала, имитирующего нубук, приятный \
@@ -635,7 +635,7 @@ export default {
         article: '01457869',
         stock: 1025,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 166,
         description: "Брелок из материала, имитирующего нубук, приятный \
@@ -649,7 +649,7 @@ export default {
         article: '1019619',
         stock: 7456,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 187,
         description: "Квадратный брелок. Держите ваши ключи в безопасности \
@@ -661,7 +661,7 @@ export default {
         article: '12694536',
         stock: 9856,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 86,
         description: "Брелок-открывалка «Dао» – функциональный промосувенир для \
@@ -674,7 +674,7 @@ export default {
         article: '01257823',
         stock: 8745,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 176,
         description: "Антистрессовые игрушки будут \
@@ -692,7 +692,7 @@ export default {
         article: '58142348',
         stock: 7458,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 69,
         description: "Необычный сувенир для посетителей выставок, \
@@ -709,7 +709,7 @@ export default {
         article: '10695836',
         stock: 1236,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 49,
         description: "С помощью антистресса «Куб» вы легко отвлечетесь от \
@@ -724,7 +724,7 @@ export default {
         article: '10524789',
         stock: 5874,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 450,
         description: "Свет мой, зеркальце, скажи, да всю правду доложи! Компактное \
@@ -739,7 +739,7 @@ export default {
         article: '12013645',
         stock: 1023,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 90,
         description: "Яркий, стильный брелок приятного оттенка \
@@ -753,7 +753,7 @@ export default {
         article: '12584569',
         stock: 1456,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 90,
         description: "Брелок в форме домика подчеркнет специализацию \
@@ -767,7 +767,7 @@ export default {
         article: '1057469',
         stock: 1478,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 60,
         description: "Небольшая рулетка, которую можно носить с собой \
@@ -780,7 +780,7 @@ export default {
         article: '10526974',
         stock: 4589,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 500,
         description: "Сумка-почтальон со съемным клапаном на липучке под персонализацию \
@@ -792,7 +792,7 @@ export default {
         article: '01104785',
         stock: 1365,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 65,
         description: "Металлический брелок для ключей отлично подходит \
@@ -807,7 +807,7 @@ export default {
         article: '10526374',
         stock: 1098,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 30,
         description: "Брелок из нержавеющей стали «круг» d30мм (увеличенное ушко - D 7мм)",
@@ -818,7 +818,7 @@ export default {
         article: '10527496',
         stock: 1045,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 50,
         description: "Заготовки для брелоков из акрила можно использовать в качестве \
@@ -838,7 +838,7 @@ export default {
         article: '105527496',
         stock: 1009,
         colors: [
-          { color: '', image: require('') },
+          // { color: '', image: require('') },
         ],
         price: 250,
         description: "В чём особенность: Компактная зажигалка белого цвета с возможностью \
