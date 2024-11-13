@@ -635,7 +635,9 @@ export default {
         article: '01457869',
         stock: 1025,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Светло-коричневый', image: require('@/assets/img/catalog/accessories/alen_2/light_brown.svg') },
+          { color: 'Коричневый', image: require('@/assets/img/catalog/accessories/alen_2/brown.svg') },
+          { color: 'Рыжий', image: require('@/assets/img/catalog/accessories/alen_2/red.svg') },
         ],
         price: 166,
         description: "Брелок из материала, имитирующего нубук, приятный \
@@ -649,7 +651,9 @@ export default {
         article: '1019619',
         stock: 7456,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Красный', image: require('@/assets/img/catalog/accessories/mondo/red.svg') },
+          { color: 'Черный', image: require('@/assets/img/catalog/accessories/mondo/black.svg') },
+          { color: 'Оранжевый', image: require('@/assets/img/catalog/accessories/mondo/orange.svg') },
         ],
         price: 187,
         description: "Квадратный брелок. Держите ваши ключи в безопасности \
@@ -661,7 +665,9 @@ export default {
         article: '12694536',
         stock: 9856,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Красный', image: require('@/assets/img/catalog/accessories/dao/red.svg') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/accessories/dao/green.svg') },
+          { color: 'Серебрянный', image: require('@/assets/img/catalog/accessories/dao/silver.svg') },
         ],
         price: 86,
         description: "Брелок-открывалка «Dао» – функциональный промосувенир для \
@@ -674,7 +680,10 @@ export default {
         article: '01257823',
         stock: 8745,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Белый', image: require('@/assets/img/catalog/accessories/kubik/white.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/accessories/kubik/blue.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/accessories/kubik/red.svg') },
+          { color: 'Желтый', image: require('@/assets/img/catalog/accessories/kubik/yellow.svg') },
         ],
         price: 176,
         description: "Антистрессовые игрушки будут \
@@ -692,7 +701,8 @@ export default {
         article: '58142348',
         stock: 7458,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Желтый', image: require('@/assets/img/catalog/accessories/helmet/yellow.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/accessories/helmet/blue.svg') },
         ],
         price: 69,
         description: "Необычный сувенир для посетителей выставок, \
@@ -709,7 +719,8 @@ export default {
         article: '10695836',
         stock: 1236,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Белый', image: require('@/assets/img/catalog/accessories/kub/white.svg') },
+          { color: 'Оранжевый', image: require('@/assets/img/catalog/accessories/kub/orange.svg') },
         ],
         price: 49,
         description: "С помощью антистресса «Куб» вы легко отвлечетесь от \
@@ -724,7 +735,8 @@ export default {
         article: '10524789',
         stock: 5874,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Белый', image: require('@/assets/img/catalog/accessories/mirror/white.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/accessories/mirror/red.svg') },
         ],
         price: 450,
         description: "Свет мой, зеркальце, скажи, да всю правду доложи! Компактное \
@@ -739,7 +751,8 @@ export default {
         article: '12013645',
         stock: 1023,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/accessories/triangle/green.svg') },
+          { color: 'Розовый', image: require('@/assets/img/catalog/accessories/triangle/pink.svg') },
         ],
         price: 90,
         description: "Яркий, стильный брелок приятного оттенка \
@@ -753,7 +766,9 @@ export default {
         article: '12584569',
         stock: 1456,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Серебрянный', image: require('@/assets/img/catalog/accessories/house/silver.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/accessories/house/blue.svg') },
+          { color: 'Оранжевый', image: require('@/assets/img/catalog/accessories/house/orange.svg') },
         ],
         price: 90,
         description: "Брелок в форме домика подчеркнет специализацию \
@@ -767,7 +782,9 @@ export default {
         article: '1057469',
         stock: 1478,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Белый', image: require('@/assets/img/catalog/accessories/block/white.svg') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/accessories/block/green.svg') },
+          { color: 'Желтый', image: require('@/assets/img/catalog/accessories/block/yellow.svg') },
         ],
         price: 60,
         description: "Небольшая рулетка, которую можно носить с собой \
@@ -780,7 +797,7 @@ export default {
         article: '10526974',
         stock: 4589,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Белый', image: require('@/assets/img/catalog/accessories/bag/1.svg') },
         ],
         price: 500,
         description: "Сумка-почтальон со съемным клапаном на липучке под персонализацию \
@@ -792,7 +809,7 @@ export default {
         article: '01104785',
         stock: 1365,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Металл', image: require('@/assets/img/catalog/accessories/trinket/1.svg') },
         ],
         price: 65,
         description: "Металлический брелок для ключей отлично подходит \
@@ -807,7 +824,7 @@ export default {
         article: '10526374',
         stock: 1098,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Сталь', image: require('@/assets/img/catalog/accessories/trinket/2.svg') },
         ],
         price: 30,
         description: "Брелок из нержавеющей стали «круг» d30мм (увеличенное ушко - D 7мм)",
@@ -818,7 +835,7 @@ export default {
         article: '10527496',
         stock: 1045,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Прозрачный', image: require('@/assets/img/catalog/accessories/trinket/3.svg') },
         ],
         price: 50,
         description: "Заготовки для брелоков из акрила можно использовать в качестве \
@@ -838,7 +855,7 @@ export default {
         article: '105527496',
         stock: 1009,
         colors: [
-          // { color: '', image: require('') },
+          { color: 'Белый', image: require('@/assets/img/catalog/accessories/lighter/1.svg') },
         ],
         price: 250,
         description: "В чём особенность: Компактная зажигалка белого цвета с возможностью \
@@ -851,17 +868,253 @@ export default {
     chancellery: [
       {
         id: 1,
-        name: 'Ручка Elegant Pen',
-        article: '34567890',
-        stock: 1200,
+        name: 'Алюминиевая шариковая ручка «Joyce»',
+        article: '34565890',
+        stock: 1250,
         colors: [
           { color: 'Желтый', image: require('@/assets/img/catalog/stationery/joyce/yellow.svg')},
-          { color: 'Синий', image: require('@/assets/img/catalog/stationery/joyce/yellow.svg') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/stationery/joyce/green.svg') },
+          { color: 'Фиолетовый', image: require('@/assets/img/catalog/stationery/joyce/purple.svg') },
         ],
-        price: 80,
-        description: 'Описание товара для чашки 1',
+        price: 107,
+        description: 'Алюминиевая шариковая ручка Joyce. Тонкая алюминиевая \
+        шариковая ручка с поворотным механизмом и стилусом. Алюминиевый корпус \
+        с металлическим зажимом и кольцом посередине, остальные элементы из пластика.',
       },
-      // Добавьте остальные канцтовары...
+      {
+        id: 2,
+        name: 'Шариковая ручка «PET PEN PRO»',
+        article: '1469583678',
+        stock: 1023,
+        colors: [
+          { color: 'Белый', image: require('@/assets/img/catalog/stationery/pet_pen_pro/white.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/pet_pen_pro/blue.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/pet_pen_pro/red.svg') },
+        ],
+        price: 177,
+        description: "Автоматическая шариковая ручка, изготовленная из переработанного, \
+        антибактериального материала rPET, с тонированным покрытием. Антимикробная добавка, \
+        изготовленная из ионов серебра, протестированная в соответствии с ISO 22196:2011, \
+        придает rPET антибактериальный эффект, снижающий оседание бактерий или патогенов \
+        на поверхности пишущего инструмента на 99,99%. Переработанный ПЭТ, изготовленный \
+        из переработанных бутылок в Европе, очень долговечный и прочный материал. \
+        Переработанная ручка PET PEN PRO предлагает несколько сильных аргументов для \
+        продажи: переработанная, экологически чистая, климатически нейтральная и антибактериальная.",
+      },
+      {
+        id: 3,
+        name: 'Ручка картонная шариковая «Эко»',
+        article: '63782514',
+        stock: 1207,
+        colors: [
+          { color: 'Белый', image: require('@/assets/img/catalog/stationery/eco/white.svg') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/stationery/eco/green.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/eco/red.svg') },
+        ],
+        price: 30,
+        description: "Шариковая ручка с нажимным механизмом. Удобный корпус сделан из \
+        переработанного картона. Клип, кнопка и носик ручки на 50% состоят из пшеничной \
+        соломы, на 50% — из переработанного пластика. Настоящая находка для тех, кто \
+        предпочитает использовать изделия из биоразлагаемых материалов и заботится о \
+        сохранности окружающей среды.",
+      },
+      {
+        id: 4,
+        name: 'Ручка soft-touch шариковая «Plane»',
+        article: '1245687',
+        stock: 1026,
+        colors: [
+          { color: 'Белый', image: require('@/assets/img/catalog/stationery/plane/white.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/plane/blue.svg') },
+          { color: 'Фиолетовый', image: require('@/assets/img/catalog/stationery/plane/purple.svg') },
+        ],
+        price: 40,
+        description: "Элегантная пластиковая ручка идеально сочетающая гладкий клип из \
+        прозрачного пластика с фигурным корпусом soft-touch, который делает письмо \
+        невероятно комфортным.",
+      },
+      {
+        id: 5,
+        name: 'Ручка soft-touch шариковая «Taper»',
+        article: '6958123',
+        stock: 1365,
+        colors: [
+          { color: 'Серый', image: require('@/assets/img/catalog/stationery/taper/grey.svg') },
+          { color: 'Фиолетовый', image: require('@/assets/img/catalog/stationery/taper/purple.svg') },
+          { color: 'Желтый', image: require('@/assets/img/catalog/stationery/taper/yellow.svg') },
+        ],
+        price: 50,
+        description: "«Taper» — это шариковая пластиковая ручка с необычным слайдером. \
+        Приятная поверхность soft-touch делает письмо более комфортным. Для персонализации \
+        можно сделать нанесение логотипа с использованием тампопечати или УФ-печати.",
+      },
+      {
+        id: 6,
+        name: 'Ручка soft-touch шариковая «Zorro»',
+        article: '25368714',
+        stock: 1029,
+        colors: [
+          { color: 'Серый', image: require('@/assets/img/catalog/stationery/zorro/grey.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/zorro/blue.svg') },
+          { color: 'Розовый', image: require('@/assets/img/catalog/stationery/zorro/pink.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/zorro/red.svg') },
+        ],
+        price: 50,
+        description: "Пластиковая ручка «Zorro» с поворотным механизмом — это классный\
+        письменный инструмент и вариант бизнес-подарка для вас и ваших клиентов. \
+        Шариковая ручка имеет приятную на ощупь поверхность soft-touch и необычную форму клипа.",
+      },
+      {
+        id: 7,
+        name: 'Ручка  шариковая «Prodir»',
+        article: '63415602',
+        stock: 1325,
+        colors: [
+          { color: 'Черный', image: require('@/assets/img/catalog/stationery/prodir/black.svg') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/stationery/prodir/green.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/prodir/red.svg') },
+        ],
+        price: 146,
+        description: "Эта ручка красивой формы идеальна с точки зрения эргономики. \
+        Вы почувствуете, как прекрасно она ложится в руку. Внимание акцентируется \
+        на удачном сочетании нажимной кнопки со слегка изогнутым клипом, прилегающим \
+        к выпуклому корпусу. Тщательно подобранные модные расцветки дополняют \
+        классическую цветовую палитру. Особенность: поверхность для нанесения печати \
+        с обратной стороны корпуса можно смещать вниз или вверх в соответствии с вашими\
+        индивидуальными предпочтениями.Эта ручка красивой формы идеальна с точки зрения \
+        эргономики. Вы почувствуете, как прекрасно она ложится в руку. Внимание акцентируется \
+        на удачном сочетании нажимной кнопки со слегка изогнутым клипом, прилегающим к \
+        выпуклому корпусу. Тщательно подобранные модные расцветки дополняют классическую \
+        цветовую палитру. Особенность: поверхность для нанесения печати с обратной стороны \
+        корпуса можно смещать вниз или вверх в соответствии с вашими индивидуальными предпочтениями.",
+      },
+      {
+        id: 8,
+        name: 'Конференц сумка «Session»',
+        article: '3529847',
+        stock: 1265,
+        colors: [
+          { color: 'Оранжевый', image: require('@/assets/img/catalog/stationery/session/orange.svg') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/stationery/session/green.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/session/red.svg') },
+        ],
+        price: 686,
+        description: "Конференц-сумка «Session» с тремя отделениями — основное отделение для \
+        документов, отделение на молнии и контрастный карман для ручек и гаджетов.",
+      },
+      {
+        id: 9,
+        name: 'Конференц сумка для документов «Congress»',
+        article: '36259847',
+        stock: 1023,
+        colors: [
+          { color: 'Белый', image: require('@/assets/img/catalog/stationery/congress/white.svg') },
+          { color: 'Зеленый', image: require('@/assets/img/catalog/stationery/congress/green.svg') },
+          { color: 'Желтый', image: require('@/assets/img/catalog/stationery/congress/yellow.svg') },
+        ],
+        price: 667,
+        description: "Сумка для документов и конференций с удобным карманом и держателем для ручки.",
+      },
+      {
+        id: 10,
+        name: 'Конференц сумка для документов «Event»',
+        article: '02635887',
+        stock: 1325,
+        colors: [
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/event/blue.svg') },
+          { color: 'Черный', image: require('@/assets/img/catalog/stationery/event/black.svg') },
+          { color: 'Серый', image: require('@/assets/img/catalog/stationery/event/grey.svg') },
+        ],
+        price: 511,
+        description: "Яркая и удобная сумка для документов с тремя отделениями. Идеально для конференций.",
+      },
+      {
+        id: 11,
+        name: 'Блокнот «Pocket»',
+        article: '02256978',
+        stock: 1456,
+        colors: [
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/pocket/red.svg') },
+          { color: 'Черный', image: require('@/assets/img/catalog/stationery/pocket/black.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/pocket/blue.svg') },
+        ],
+        price: 686,
+        description: "Вес	- 280г. Плотность -	80 г/м2. Формат	- A5. Разлиновка - 80. Обложка	- твердая. \
+        Дата	- недатированный. Цвет бумаги	- кремовый. Крепление блока	- книжный переплет. Цвет среза - кремовый",
+      },
+      {
+        id: 12,
+        name: 'Бизнес-блокнот А5 с клапаном «Fabrizio»',
+        article: '69251459',
+        stock: 1203,
+        colors: [
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/fabrizio/red.svg') },
+          { color: 'Черный', image: require('@/assets/img/catalog/stationery/fabrizio/black.svg') },
+          { color: 'Синий', image: require('@/assets/img/catalog/stationery/fabrizio/dark_blue.svg') },
+        ],
+        price: 1506,
+        description: "Бизнес-блокнот формата А5 в твердой обложке из искусственной кожи станет отличным \
+        подарком для любого клиента. Блокнот состоит из обложки с клапаном и сменного блока с линованными \
+        страницами. Внутри обложки есть петля для ручки в тон (ручка в комплект не входит).",
+      },
+      {
+        id: 13,
+        name: 'Блокнот A6 «Stitch»',
+        article: '36259836',
+        stock: 1023,
+        colors: [
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/stitch/red.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/stitch/blue.svg') },
+          { color: 'Крафтовый', image: require('@/assets/img/catalog/stationery/stitch/craft.svg') },
+        ],
+        price: 112,
+        description: "Этот компактный блокнот, идеально подходящий для записи мыслей, идей и \
+        заметок, легко поместится в кармане.Этот компактный блокнот, идеально подходящий для \
+        записи мыслей, идей и заметок, легко поместится в кармане.",
+      },
+      {
+        id: 14,
+        name: 'Блокнот A7 «Rainbow S»',
+        article: '20639832',
+        stock: 1302,
+        colors: [
+          { color: 'Зеленый', image: require('@/assets/img/catalog/stationery/rainbow_s/green.svg') },
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/rainbow_s/blue.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/rainbow_s/red.svg') },
+        ],
+        price: 175,
+        description: "Изящный блокнот на 60 листов с эластичной застежкой и закладкой – это \
+        стильный подарок или промо-сувенир. Однотонная обложка станет отличным фоном для логотипа вашей компании.",
+      },
+      {
+        id: 15,
+        name: 'Набор стикеров «Expose» с ручкой и блокнотом А7',
+        article: '69137282',
+        stock: 1026,
+        colors: [
+          { color: 'Крафтовый', image: require('@/assets/img/catalog/stationery/expose/craft.svg') },
+          { color: 'Черный', image: require('@/assets/img/catalog/stationery/expose/black.svg') },
+        ],
+        price: 170,
+        description: "Набор цветных стикеров с шариковой ручкой и блоком из 80 белых отрывных \
+        листков. Очень удобный и функциональный аксессуар для офиса, а также отличный промо-сувенир. \
+        На обложку из уплотненного картона возможно нанесение логотипа вашей компании.",
+      },
+      {
+        id: 16,
+        name: 'Блокнот «Priestly» с ручкой',
+        article: '10256945',
+        stock: 1236,
+        colors: [
+          { color: 'Голубой', image: require('@/assets/img/catalog/stationery/priestly/blue.svg') },
+          { color: 'Черный', image: require('@/assets/img/catalog/stationery/priestly/black.svg') },
+          { color: 'Красный', image: require('@/assets/img/catalog/stationery/priestly/red.svg') },
+        ],
+        price: 417,
+        description: "Блокнот Priestly с ручкой. Блокнот формата с 60 листами линованной бумаги \
+        вторичной переработки и ручкой под цвет блокнота. На обложку блокнота и ручку можно нанести \
+        яркий логотип.Блокнот Priestly с ручкой. ",
+      },
     ]
   };
   

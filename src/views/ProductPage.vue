@@ -1,5 +1,4 @@
 <template>
-
   <!-- info -->
 
   <div class="info">
@@ -9,46 +8,58 @@
   </div>
 </div>
 
-<!--  -->
+<!-- product -->
 
-  <div>
-    <!-- Проверяем, что product существует, прежде чем рендерить информацию о товаре -->
-    <div v-if="product">
-      <div class="product-info">
-        <img :src="selectedColorImage" :alt="product.name" class="product-image" />
-        <h1>{{ product.name }}</h1>
-        <p>Арт. {{ product.article }}</p>
-        <p>На складе {{ product.stock }} шт.</p>
-
-        <label>Цвет:</label>
-        <select @change="updateColorImage($event.target.value)">
-          <option
-            v-for="color in product.colors"
-            :key="color.color"
-            :value="color.color"
-          >
-            {{ color.color }}
-          </option>
-        </select>
-
-        <p>{{ product.price }} ₽</p>
-        <div class="down">
-          <div class="quantity">
-            <button @click="selectedQuantity = Math.max(1, selectedQuantity - 1)">-</button>
-            <span>{{ selectedQuantity }}</span>
-            <button @click="selectedQuantity++">+</button>
-          </div>
-          <button @click="addToCart">В корзину</button>`
+<div class="wrapper">
+    <div class="product">
+        <div class="product_left">
+            <img :src="selectedColorImage" :alt="product.name" class="product-image" />
         </div>
-        
-      </div>
+        <div class="product_right">
+            <p>{{ product.name }}</p>
+            <div class="stock_info">
+                <p id="art">Арт. {{ product.article }}</p>
+                <p>На складе {{ product.stock }} шт.</p>
+            </div>
+            <div class="custom-select">
+                <div class="options">
+                  <p>Цвет</p>
+                  <select @change="updateColorImage($event.target.value)">
+                    <option
+                      v-for="color in product.colors"
+                      :key="color.color"
+                      :value="color.color"
+                    >
+                      {{ color.color }}
+                    </option>
+                  </select>
+                </div>
+            </div>
+            <p id="product-price" class="product-price">{{ product.price }} ₽</p>
+            <div class="add-to-cart-container">
+                <button class="add-to-cart-button" @click="addToCart">В корзину</button>
+                
+                <div class="quantity-counter">
+                    <button @click="selectedQuantity = Math.max(1, selectedQuantity - 1)" class="decrement-button">
+                        <img src="@/assets/img/product/minus.svg" alt="Уменьшить количество">
+                    </button>
+                    <span>{{ selectedQuantity }}</span>
+                    <button  @click="selectedQuantity++" class="increment-button">
+                        <img src="@/assets/img/product/plus.svg" alt="Увеличить количество">
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
 
-  <div class="product-description">
-        <h2>Описание</h2>
-        <p>{{ product.description }}</p>
-      </div>
+<div class="wrapper">
+    <div class="product_info">
+        <h1>Описание</h1>
+        <p>{{ product.description }}</p>  
+    </div>
+</div>
+  
 </template>
 
 <script>
@@ -96,43 +107,126 @@ export default {
 </script>
 
 <style scoped>
-.product-page {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+
+.product{
+    display: flex;
+    margin-top: 10%;
+    justify-content:space-between;
 }
-.product-info {
+
+.product_left img{
+    width: 450px;
+}
+
+.product_right{
+    width: 50%;
+}
+
+.product_right p{
+    font-family: medium;
+    font-size: 1.5rem;
+}
+
+.stock_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.stock_info p{
+    font-family: medium;
+    font-size: 0.75rem;
+    color: #FFA630;
+}
+
+#product-art{
+    color: #10BB87;
+}
+
+.options{
   display: flex;
-  gap: 20px;
-}
-.product-image {
-  width: 300px;
-  height: auto;
-  border: 1px solid #ddd;
-}
-.product-details {
-  flex-grow: 1;
-}
-.color-selection {
-  margin-top: 10px;
-}
-.price {
-  font-size: 24px;
-  color: #00b894;
-  margin-top: 10px;
-}
-.cart-controls {
-  display: flex;
+  justify-content: space-between;
+  padding: 10px;
   align-items: center;
-  gap: 10px;
-  margin-top: 10px;
+  margin-top: 5%;
 }
-.add-to-cart {
-  background-color: #00b894;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
+
+.options p{
+  font-family: medium;
+  font-size: 0.85rem
 }
+
+.options select{
+  background-color: #FAFAFA;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  width: 70%;
+  height: 40px;
+}
+
+.product-price{
+    margin-top: 5%;
+    width: 275px;
+    height: 70px;
+    background-image: url("@/assets/img/product/back.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* горизонтальное выравнивание */
+    align-items: center; /* вертикальное выравнивание */
+    text-align: center;
+    color: white;
+    font-family: medium;
+}
+
+.add-to-cart-container{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.add-to-cart-button{
+    width: 300px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.quantity-counter {
+    display: flex;
+    align-items: center; 
+    width: 30%;
+}
+
+.decrement-button,
+.increment-button {
+    background-color: white;
+    border: none;
+    padding: 5px;
+}
+
+.quantity-counter span {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #00A860;
+}
+
+.product_info{
+    margin-top: 10%;
+}
+
+.product_info h1{
+    color: #10BB87;
+    font-family: medium;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.product_info p{
+  font-family: regular;
+  font-size: 0.875rem;
+}
+
 </style>
