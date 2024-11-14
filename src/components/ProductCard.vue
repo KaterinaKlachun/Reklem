@@ -16,7 +16,7 @@
     },
     methods: {
       viewProduct() {
-        this.$router.push(`/html/${this.category}.html?id=${this.productId}`);
+        this.$router.push({ name: 'product', params: { category: this.category, id: this.productId } });
       },
     },
   };

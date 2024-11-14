@@ -9,3 +9,23 @@ module.exports = {
     ]
   }
 }
+
+const TerserPlugin = require('terser-webpack-plugin');
+
+module.exports = {
+  configureWebpack: (config) => {
+    config.optimization = {
+      minimize: true,
+      minimizer: [
+        new TerserPlugin({
+          terserOptions: {
+            compress: {
+              drop_console: true,  // Убирает консольные сообщения для уменьшения размера кода
+              drop_debugger: true, // Убирает команды debugger
+            },
+          },
+        }),
+      ],
+    };
+  },
+};
