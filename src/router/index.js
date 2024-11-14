@@ -1,12 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import HomePage from '../views/HomePage.vue';
-import AboutPage from '../views/AboutPage.vue';
-import CatalogPage from '../views/CatalogPage.vue';
-import ContactsPage from '../views/ContactsPage.vue';
-import NewsPage from '../views/NewsPage.vue';
-import PortfolioPage from '../views/PortfolioPage.vue';
-import ServicesPage from '../views/ServicesPage.vue';
+// Ленивый импорт для страниц с добавлением компонентов для загрузки и ошибок
+const HomePage = () => import(/* webpackChunkName: "home" */ '../views/HomePage.vue');
+const AboutPage = () => import(/* webpackChunkName: "about" */ '../views/AboutPage.vue');
+const CatalogPage = () => import(/* webpackChunkName: "catalog" */ '../views/CatalogPage.vue');
+const ContactsPage = () => import(/* webpackChunkName: "contacts" */ '../views/ContactsPage.vue');
+const NewsPage = () => import(/* webpackChunkName: "news" */ '../views/NewsPage.vue');
+const PortfolioPage = () => import(/* webpackChunkName: "portfolio" */ '../views/PortfolioPage.vue');
+const ServicesPage = () => import(/* webpackChunkName: "services" */ '../views/ServicesPage.vue');
 
 const routes = [
   { path: '/', component: HomePage },

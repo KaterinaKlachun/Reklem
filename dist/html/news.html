@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="../src/css/news.css">
+</head>
+<body>
+
+
+<!-- Header -->
+
+<header>
+    <div class="wrapper">
+
+        <nav id="head">
+            <div class="logo"><a href="../html/main.html"><img src="../src/img/header/logo.svg"></a></div>
+            <ul class="nav-links"> 
+                <li><a href="about.html"><p>О компании</p></a></li>
+                <li><a href="catalog.html"><p>Каталог</p></a></li>
+                <li><a href="services.html"><p>Услуги</p></a></li>
+                <li><a href="contacts.html"><p>Контакты</p></a></li>
+                <li><img src="../src/img/header/search.svg" alt=""></li>
+            </ul>
+            <div class="icons">
+                <a href="#"><img src="../src/img/header/user.svg" alt="Личный кабинет"></a>
+                <a href="#"><img src="../src/img/header/shop.svg" alt="Корзина"></a>
+            </div>
+        </nav>
+
+    </div>
+</header>
+
+<!-- info -->
+
+<div class="info">
+    <div class="pagination">
+        <a href="main.html">Главная /</a>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="cat">
+        <h1><span>Новости</span></h1>
+    </div>
+</div>
+
+<!-- news -->
+
+<div class="wrapper">
+    <div id="news-container" class="news_container"></div>
+        <!-- Карточки продуктов будут добавлены сюда через JavaScript -->
+    </div>
+</div>
+
+<script src="../src/script/switching_news.js"></script>
+
+<!-- FAQ -->
+ 
+<div class="wrapper">
+    <div class="faq">
+        <h1>Часто задаваемые<br>
+            <span>вопросы</span>
+        </h1>
+        <div class="faq_section">
+            <div class="faq_section1">
+                <details>
+                    <summary>
+                        <span>Вы доставляете по всей России?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>Да, мы организуем доставку по всей территории России с помощью надёжных курьерских служб. Вы также можете выбрать способ доставки, который лучше всего вам подходит.</p>
+                </details>
+                <details>
+                    <summary>
+                        <span>А на бумаге печатаете?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>Нет, мы не выполняем печать на бумаге — такие услуги обычно предоставляют типографии. Мы специализируемся на печати на кружках, термосах, канцелярии, флешках и других подобных поверхностях.</p>
+                </details>
+                <details>
+                    <summary>
+                        <span>Можно сделать принт на своей вещи?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>Да, вы можете принести свою вещь для нанесения принта. Обратите внимание, что материал должен соответствовать нашим требованиям для наилучшего результата печати. Рекомендуем уточнить детали у менеджера.</p>
+                </details>
+                <details>
+                    <summary>
+                        <span>Как быстро сможете произвести заказ?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>Сроки выполнения зависят от сложности и объема заказа. Обычно стандартные заказы выполняются в течение 3-5 рабочих дней. Для срочных заказов у нас также предусмотрены ускоренные опции.</p>
+                </details>
+            </div>
+            <div class="faq_section1">
+                <details>
+                    <summary>
+                        <span>Можно заказать одну какую-то позицию?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>Конечно! Мы выполняем заказы в любом объеме — от одной единицы до крупных партий. Вы всегда можете заказать один экземпляр для проверки качества.</p>
+                </details>
+                <details>
+                    <summary>
+                        <span>Из-за заграницы можно заказать?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>К сожалению, мы работаем только с заказами внутри России и не предоставляем международную доставку. Если вы находитесь за границей, вы можете оформить заказ через друзей или родственников, проживающих в России, и они смогут получить его для вас. Мы предлагаем несколько удобных способов доставки по стране, чтобы ваш заказ был доставлен быстро и надёжно.</p>
+                </details>
+                <details>
+                    <summary>
+                        <span>Можно организовать самовывоз?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>К сожалению, у нас не предусмотрен самовывоз. Мы осуществляем только доставку по всей России, чтобы обеспечить удобство и безопасность получения вашего заказа.</p>
+                </details>
+                <details>
+                    <summary>
+                        <span>А если я не юр лицо, будем сотрудничать?</span>
+                        <img class="icon" src="../src/img/arrow_down.svg" alt="plus icon" />
+                    </summary>
+                    <p>Конечно! Мы работаем как с юридическими, так и с физическими лицами. Независимо от статуса, вы можете рассчитывать на качественное обслуживание и поддержку.</p>
+                </details>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="wrapper">
+
+    <div class="contact_form">
+        <div class="contact_txt">
+            <h2>Нужна <span>помощь?</span></h2>
+            <p>Оставьте свои данные — мы перезвоним и решим вопрос. Помните, оставляя контакты, вы даёте согласие на обработку персональных данных.</p>
+        </div>
+
+        <form>
+            <label for="name">Имя</label>
+            <input type="text" id="name" placeholder="Женя" required>
+
+            <label for="phone">Телефон</label>
+            <input type="tel" id="iphone" placeholder="+7 000 000 00 00" required>
+
+            <button type="submit">Отправить<img src="../src/img/arrow_right_green.svg" alt=""></button>
+        </form>
+    </div>
+    
+</div>
+
+<!-- Footer -->
+
+<footer>
+    <div class="wrapper">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="../src/img/footer/logo.svg" alt="Reklem" class="logo-img">
+                </div>
+        
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Компания</h4>
+                        <ul>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                            <li><a href="#">Обмен и возврат</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Клиентам</h4>
+                        <ul>
+                            <li><a href="#">Личный кабинет</a></li>
+                            <li><a href="#">Партнерство</a></li>
+                            <li><a href="#">Гарантия</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Политика</h4>
+                        <ul>
+                            <li><a href="#">Обработка данных</a></li>
+                            <li><img src="../src/img/footer/copyright.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+    </div>
+</footer>
+
+</body>
